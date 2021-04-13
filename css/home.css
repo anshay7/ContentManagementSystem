@@ -41,17 +41,27 @@ a{
 /* Up to Header Section*/
 
 .partnership {
-    width: 48%;
-    margin: auto;
+    width: 49%;
+    margin: 40px auto;
 }
 
-.logo {
+.uni_logo {
+    float: left;
     width: 280px;
+    margin-top: 10px;
 }
 
 .handshake {
-    font-size: 100px;
+    float: left;
+    width: 120px;
+    margin: 50px 20px 0 5px ;
 }
+
+.college_logo {
+    float: left;
+    width: 280px;
+}
+
 
 /* Upto handshake Section*/
 
@@ -143,6 +153,35 @@ a{
 
 .footer {
     color: whitesmoke;
-    padding: 20px 10px;
+    padding: 10px;
     background-color: rgba(51, 51, 51, 255);
 }
+
+.copyright {
+    margin-left: 100px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.social_media {
+    float: right;
+    margin-right: 50px;
+}
+
+.social {
+    float: inline-start;
+}
+.facebook {
+    margin-top: 5px;
+}
+.twitter {
+    margin-right: 10px;
+}
+.linkedin {
+    margin-right: 15px;
+}
+.insta {
+    margin-top: 10px;
+}
+
+

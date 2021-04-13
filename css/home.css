@@ -148,6 +148,31 @@ a{
     padding: 30px;
     width: 40%;
 }
+/* Icons on the After Complition*/
+.material-icons.md-48{
+    font-size:80px;
+    float:right;
+    position: relative;
+    bottom: 50px;
+}
+.fa.fa-graduation-cap{
+    font-size: 80px;
+    float:right;
+    position: relative;
+    bottom: 50px;
+}
+.fa.fa-certificate{
+    font-size: 80px;
+    float:right;
+    position: relative;
+    bottom: 50px;
+}
+.fa.fa-users{
+    font-size: 80px;
+    float:right;
+    position: relative;
+    bottom: 50px;
+}
 
 /* Up to On Completed */
 

@@ -133,8 +133,8 @@ a{
     font-size: 20px;
     margin: 0;
 }
-
 /* Up to All Courses */
+
 
 /* main_title is used in coure_title */
 .methology {
@@ -158,9 +158,8 @@ a{
     display: flex;
     justify-content: space-around;
 }
-
-
 /* Up to Methology */
+
 
 /* completion_title is used in coure_title */
 
@@ -204,10 +203,8 @@ a{
 {
     font-size: 110px;
 }
-
-
-
 /* Up to On Completed */
+
 
 .footer {
     color: whitesmoke;

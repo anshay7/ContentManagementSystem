@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+a{
+    text-decoration-line: none;
+}
+.hck_logo_header {
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 270px;
+}
+
+.header_link {
+    display: inline;
+    margin-left: 335px;
+}
+
+.next_page {
+    font-size: 20px;
+    color: rgba(51, 51, 51, 255);
+    text-decoration: none;
+    margin: 20px;
+}
+
+.next_page:hover {
+    color: whitesmoke;
+    background-color: rgba(116, 192, 67, 255);
+}
+
+.header_separator {
+    padding: 2px;
+    background-color: rgba(51, 51, 51, 255);
+}
+/* Up to Header Section*/
+
+
+
+/* Gallery Image Section */
+.gallery_title {
+    color: rgba(51, 51, 51, 255);
+    border-bottom: 4px solid rgba(51, 51, 51, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.head_title {
+    margin: 60px;
+}
+.collection{
+    display: flex;
+    justify-content: center;
+    
+}
+.gallery_image {
+    width: 30%;
+    margin: 5px;
+}
+
+
+
+/* Footer Section */
+.footer {
+    color: whitesmoke;
+    padding: 5px;
+    background-color: rgba(51, 51, 51, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.social_media {
+    margin-right: 65px;
+}
+
+.social {
+    float: inline-start;
+}
+.facebook {
+    margin-top: 5px;
+}
+.twitter {
+    margin-right: 10px;
+}
+.linkedin {
+    margin-right: 15px;
+}
+.insta {
+    margin-top: 10px;
+}

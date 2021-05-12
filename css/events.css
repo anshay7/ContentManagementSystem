@@ -58,11 +58,13 @@ a{
     display: flex;
     justify-content: space-around;
     width: 50%;
+    height: 240px;
     margin: auto;
     margin-bottom: 20px;
 
 }
 .event_title {
+    margin: auto 0;
     width: 50%;
     margin-right: 100px;
 }

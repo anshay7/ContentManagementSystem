@@ -3,7 +3,7 @@
 
 <head>
     <title>Admin Login</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 
 <body>
@@ -15,8 +15,10 @@
                 <input type="text" placeholder="Username" name="uname" required> <br>
                 <input type="password" placeholder="Password" name="psw" required> <br>
 
-                <button class="login" type="submit">Login</button> <br>
-                <button class="forgot">Forgot Username / Password?</button>
+                <a href="/html/admin/course_panel.html">
+                    <button class="login" type="button">Login</button> <br>
+                </a>
+                <button class="forgot" type="button">Forgot Username / Password?</button>
             </div>
             <div class="greeting">
                 <h1>Hey, &nbsp;<span style='font-size:60px;'>&#128075;&nbsp;</span> Admin Good Morning
@@ -24,8 +26,8 @@
             </div>
         </form>
     </div>
-    
-    <a href="../html/home.html">
+
+    <a href="/html/home.html">
         <button class="goHome">Back To Home</button>
     </a>
 

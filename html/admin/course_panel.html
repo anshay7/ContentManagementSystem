@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="/css/admin_panel.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Courses</title>
+</head>
+
+<body>
+    <!-- <div id="demo">
+    </div> -->
+
+    <!-- Header Section -->
+    <header class="dashboard">
+        <h1 class="a">ADMIN DASHBOARD</h1>
+        <p>Control Panel</p>
+    </header>
+    <a class="preview" href="/html/our_courses.html" target="_blank">Preview Courses</a>
+
+    <!-- Admin Section to perform CRUD operation -->
+    <div class="all_courses">
+
+        <div class="admin_navigation_link">
+            <a class="next_page" href="course_panel.html">COURSES</a>
+            <a class="next_page" href="event_panel.html">EVENTS</a>
+            <a class="next_page" href="gallery_panel.html">GALLERY</a>
+
+        </div>
+
+        <div class="courses">
+            <h1 class="course_title">ALL COURSES</h1>
+
+            <div class="course">
+                <h1 class="course_name">
+                    BIBM
+                </h1>
+                <div class="sub_course_part">
+                    <p>Bachelors in International Business Management</p>
+                    <p>Availability = Available</p>
+                    <p>Id = 1</p>
+                </div>
+            </div>
+            <div class="course">
+                <h1 class="course_name">
+                    BIT
+                </h1>
+                <div class="sub_course_part">
+                    <p>Bachelor in Computer Science</p>
+                    <p>Availability = Available</p>
+                    <p>Id = 2</p>
+                </div>
+
+
+            </div>
+            <div class="course">
+                <h1 class="course_name">
+                    IMBA
+                </h1>
+                <div class="sub_course_part">
+                    <p>International Master of Business Administration
+                    </p>
+                    <p>Availability = Comming Soon</p>
+                    <p>Id = 3</p>
+                </div>
+
+
+            </div>
+            <div class="course">
+                <h1 class="course_name">
+                    BCNS
+                </h1>
+                <div class="sub_course_part">
+                    <p>Bachelor in Computer Networking Security</p>
+                    <p>Availability = Comming Soon</p>
+                    <p>Id = 4</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Courses Maintenance -->
+        <div class="CRUD">
+            <div class="crud_course">
+
+                <h2 class="crud_title">Add Course</h2>
+                <label>Course Name</label> <br>
+                <input type="text"><br>
+                <label>Course Full Form</label> <br>
+                <input type="text"><br>
+
+                <div class="option">
+                    <label>Availability:</label> <br>
+                    <input type="radio"> <label>Available</label><br>
+                    <input type="radio"> <label>Comming Soon</label><br>
+                </div>
+
+                <div class="add_buttons">
+                    <button class="adding_button" type="submit">Add</button>
+                </div>
+            </div>
+
+            <hr>
+            <div class="crud_course">
+
+                <h2 class="crud_title">Update Course</h2>
+                <label>Course Id</label> <br>
+                <input type="text"><br>
+                <label>Course Name</label> <br>
+                <input type="text"><br>
+                <label>Course Full Form</label> <br>
+                <input type="text"><br>
+
+                <div class="option">
+                    <label>Availability:</label> <br>
+                    <input type="radio"> <label>Available</label><br>
+                    <input type="radio"> <label>Comming Soon</label><br>
+                </div>
+
+                <div class="add_buttons">
+                    <button class="adding_button" type="submit">Update</button>
+                </div>
+            </div>
+
+            <hr>
+            <div class="crud_course">
+
+                <h2 class="crud_title">Delete Course</h2>
+                <label>Course Id</label> <br>
+                <input type="text"><br>
+
+                <div class="add_buttons">
+                    <button class="adding_button" type="submit">Delete</button>
+                </div>
+            </div>
+
+            <a class="logout" href="/html/admin/login.html">Log out</a>
+        </div>
+        
+    </div>
+
+
+    <script src="../JS/admin_panel.js"></script>
+</body>
+
+</html>

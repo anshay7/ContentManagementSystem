@@ -1,3 +1,6 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     margin: 0;
 }
@@ -9,7 +12,7 @@ body {
     top: 0;
     z-index: 1;
 }
-a{
+a{ 
     text-decoration-line: none;
 }
 .hck_logo_header {

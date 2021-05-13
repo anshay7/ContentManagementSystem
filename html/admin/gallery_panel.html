@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="/css/admin_panel.css">
-    <link rel="stylesheet" href="/css/others_admin_panel.css">
+    <link rel="stylesheet" href="/css/admin/main_admin_panel.css">
+    <link rel="stylesheet" href="/css/admin/extra_admin_panel.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Courses</title>
 </head>
@@ -20,7 +20,6 @@
     <header class="dashboard">
         <h1 class="a">ADMIN DASHBOARD</h1>
         <p>Control Panel</p>
-        
     </header>
     <a class="preview" href="/html/gallery.html" target="_blank">Preview Gallery</a>
 
@@ -75,9 +74,11 @@
 
         <!-- Gallery Maintenance -->
         <div class="CRUD">
+          
             <div class="crud_course">
 
                 <h2 class="crud_title">Add Image</h2>
+                <input class="upload_image" type="file" id="img" name="img" accept="image/*">
 
                 <div class="add_buttons">
                     <button class="adding_button" type="submit">Add</button>
@@ -90,6 +91,7 @@
                 <h2 class="crud_title">Update Image</h2>
                 <label>Image Id</label> <br>
                 <input type="text"><br>
+                <input class="upload_image" type="file" id="img" name="img" accept="image/*">
 
                 <div class="add_buttons">
                     <button class="adding_button" type="submit">Update</button>
@@ -109,6 +111,7 @@
             </div>
 
             <a class="logout" href="/html/admin/login.html">Log out</a>
+
         </div>
     </div>
 

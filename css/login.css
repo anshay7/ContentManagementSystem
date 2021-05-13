@@ -66,3 +66,27 @@ a{
     border: none;
     font-size: 12px;
 }
+
+
+/* Responsive Start from Here */
+@media screen and (max-width: 900px) {
+    .greeting {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .container {
+        background-color: whitesmoke;
+        padding: 20px 20px 0px 20px;
+        margin: 40px 80px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 500px) {
+
+    
+  }
